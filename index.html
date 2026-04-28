@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ Accordion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-5">
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-target="#faq1" data-bs-toggle="collapse">
+            <p>What's the return policy</p>
+          </button>
+        </h2>
+        <div class="accordion-collapse collapse" id="faq1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>30-days full refund. No questions asked.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-target="#faq2" data-bs-toggle="collapse">
+            <p>How do I contact you?</p>
+          </button>
+        </h2>
+        <div class="accordion-collapse collapse" id="faq2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>You can contact us by email: <a href="mailto:example@example.com">example@example.com</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-target="#faq3" data-bs-toggle="collapse">
+            <p>Where's my order?</p>
+          </button>
+        </h2>
+        <div class="accordion-collapse collapse" id="faq3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>Please allow 4-5 days from the day of the order for it to be delivered.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
